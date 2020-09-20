@@ -12,7 +12,7 @@ This comand is used to install tensorflow
 `pip install tensorflow`
 
 ### Task in the assignment
-- [Step 1 - Loading Data](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-1---loading-data)
+- [Step 1 - Loading Data](#step-1---loading-data)
 - [Step 2 - Pre-processing](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-2---pre-processing)
 - [Step 3 - Multi-layer Perceptron](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-3---multi-layer-perceptron)
 - [Step 4 - Optimizer](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-4---optimizer)
