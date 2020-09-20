@@ -76,4 +76,6 @@ In this section, you will predict the test_data and copy the result into DPHI De
 - **Dataset:** [DPHI Bootcamp](https://drive.google.com/file/d/176E-pLhoxTgWsJ3MeoJQV_GXczIA6g8D/view)
 
 ### Achievement
+The result of my submission in the bootcamp leaderboard is in the top 10 rank, my nickname is densaiko07. 
 
+I thank to the Chanukya and all coaches in this bootcamp. I do appreciate for your effort to share deep learning knowledge with no charge for one month. I recommend for all learners whether you are beginner or intermediate level, you may choose this bootcamp as one of your resources to enhance your skill and make your hands dirty. Thank you so much.
