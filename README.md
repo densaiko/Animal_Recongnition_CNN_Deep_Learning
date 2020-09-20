@@ -12,7 +12,6 @@ This comand is used to install tensorflow
 `pip install tensorflow`
 
 ### Task in the assignment
-All steps have been covered in the notebook
 - Step 1 - Loading Data
 - Step 2 - Pre-processing
 - Step 3 - Multi-layer Perceptron
@@ -23,3 +22,6 @@ All steps have been covered in the notebook
 - Step 8 - Optimization Techniques
 - Step 9 - Predict
 
+### Step 1 - Loading Data
+In this section, you will unzip the data from google drive and load the data into your notebook
+`from google_drive_downloader import GoogleDriveDownloader as gdd'
