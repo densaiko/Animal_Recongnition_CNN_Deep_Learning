@@ -34,6 +34,11 @@ In this section, you have to set the pixel into 256 256, covert_to_tensor, resha
 - reshape `tf.reshape(data_test_tf, [910, 256, 256, 3])`
 - normalize `np.divide(data_test_tf, 255.0)`
 
+To load the training data, I use the Image Data Generator 
+```
+from keras.preprocessing.image import ImageDataGenerator
+```
+
 ### Step 3 - Multi-layer Perceptron
 In this section, you have to build your own model version to predict the data. I have build 3 hidden layers such as
 - First hidden layer, I use 512 perceptrons and relu activation
