@@ -38,6 +38,7 @@ To load the training data, I use the Image Data Generator
 ```
 from keras.preprocessing.image import ImageDataGenerator
 ```
+<img src="image/farfalla.png" width="300" >
 
 ### Step 3 - Multi-layer Perceptron
 In this section, you have to build your own model version to predict the data. I have build 3 hidden layers such as
