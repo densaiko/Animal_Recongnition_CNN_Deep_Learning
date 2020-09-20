@@ -58,7 +58,7 @@ In this section, I use ResNet50 model with some customization such as
 - First hidden layer, I use 512 perceptrons, relu activation and kernel_regularizer using `l2`. I also use dropout function around 30% during the training
 - Second hidden layer, I use 256 perceptrons, relu activation and kernel_regularizer using `l2`. I also use dropout function around 20% during the training
 
-### Step 8 - Optimization Tecnique
+### Step 8 - Optimization Technique
 In this section, I use SGD optimizer to optimize the model 
 
 ### Step 9 - Predictions
@@ -68,3 +68,6 @@ In this section, you will predict the test_data and copy the result into DPHI De
 - **Python Version:** 3.7.6
 - **Tensorflow Version:** 2.3.0
 - **Dataset:** [DPHI Bootcamp](https://drive.google.com/file/d/176E-pLhoxTgWsJ3MeoJQV_GXczIA6g8D/view)
+
+### Achievement
+
