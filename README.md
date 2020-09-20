@@ -1,4 +1,4 @@
-# Animal Recognition - Convutional Neural Network (CNN)
+# Animal Recognition - Convolutional Neural Network (CNN)
 ### This notebook is one of the assignment from Deep Learning Boot Camp by DPHI. I have done in this notebook such as:
 - Loading the data and save it into appropriate variables
 - Converting the array of data into tensor in four-dimensional array
