@@ -13,12 +13,12 @@ This comand is used to install tensorflow
 
 ### Task in the assignment
 - [Step 1 - Loading Data](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-1---loading-data)
-- Step 2 - Pre-processing
-- Step 3 - Multi-layer Perceptron
-- Step 4 - Optimizer
-- Step 5 - Training the model
-- Step 6 - Tensorboard
-- Step 7 - Building CNN
+- [Step 2 - Pre-processing](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-2---pre-processing)
+- [Step 3 - Multi-layer Perceptron](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-3---multi-layer-perceptron)
+- [Step 4 - Optimizer](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-4---optimizer)
+- [Step 5 - Training the model](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-5---training-the-model)
+- [Step 6 - Tensorboard](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-6---tensorbard)
+- [Step 7 - Building CNN](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-7---building-cnn)
 - Step 8 - Optimization Techniques
 - Step 9 - Predict
 
@@ -57,7 +57,9 @@ from tensorflow.keras.callbacks import TensorBoard
 In this section, I use ResNet50 model with some customization such as
 - First hidden layer, I use 512 perceptrons, relu activation and kernel_regularizer using `l2`. I also use dropout function around 30% during the training
 - Second hidden layer, I use 256 perceptrons, relu activation and kernel_regularizer using `l2`. I also use dropout function around 20% during the training
-- The optimizer that I used is SGD
+
+### Step 8 - Optimization Tecnique
+In this section, I use SGD optimizer to optimize the model 
 
 ### Step 9 - Predictions
 In this section, you will predict the test_data and copy the result into DPHI Deep Learning Bootcamp to check the accuracy
