@@ -19,8 +19,8 @@ This comand is used to install tensorflow
 - [Step 5 - Training the model](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-5---training-the-model)
 - [Step 6 - Tensorboard](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-6---tensorbard)
 - [Step 7 - Building CNN](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-7---building-cnn)
-- Step 8 - Optimization Techniques
-- Step 9 - Predict
+- [Step 8 - Optimization Techniques](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-8---optimization-tecnique)
+- [Step 9 - Predict](https://github.com/densaiko/Recognize_Animals_CNN_Deep_Learning/blob/master/README.md#step-9---predictions)
 
 ### Step 1 - Loading Data
 In this section, you will unzip the data from google drive and load the data into your notebook
