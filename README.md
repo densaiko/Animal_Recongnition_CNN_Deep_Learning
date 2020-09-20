@@ -12,7 +12,7 @@ This comand is used to install tensorflow
 `pip install tensorflow`
 
 ### Task in the assignment
-- Step 1 - Loading Data
+- [Step 1 - Loading Data] (#Step 1 - Loading Data)
 - Step 2 - Pre-processing
 - Step 3 - Multi-layer Perceptron
 - Step 4 - Optimizer
