@@ -22,8 +22,47 @@ This comand is used to install tensorflow
 - Step 8 - Optimization Techniques
 - Step 9 - Predict
 
-## Step 1 - Loading Data
+### Step 1 - Loading Data
 In this section, you will unzip the data from google drive and load the data into your notebook
 ```
 from google_drive_downloader import GoogleDriveDownloader as gdd
 ```
+
+### Step 2 - Pre-Processing
+In this section, you have to set the pixel into 256 256, covert_to_tensor, reshape and normalize it.
+- convert to tensor `tf.convert_to_tensort(data_test, np.float32)`
+- reshape `tf.reshape(data_test_tf, [910, 256, 256, 3])`
+- normalize `np.divide(data_test_tf, 255.0)`
+
+### Step 3 - Multi-layer Perceptron
+In this section, you have to build your own model version to predict the data. I have build 3 hidden layers such as
+- First hidden layer, I use 512 perceptrons and relu activation
+- Second hidden layer, I use 256 perceptrons and relu activation
+- Third hidden layer, I use 128 perceptrons and relu activation
+
+### Step 4 - Optimizer
+In this section, you have to create your own optimizer.
+Here I use `adam` for simple CNN model and `SGD` for the ResNet50 Model
+
+### Step 5 - Training the model
+In this section, you have to set the tensorboard and earlystopping in your model fit. Tensorboard is a dashboard of our result of training and earlystopping to stop the running model to overcome over fitting.
+
+### Step 6 - Tensorbard
+In this section, I will visualize the dashboard of my training to visualize the epoch_accuracy and epoch_loss. To load the tensorboard library
+```
+from tensorflow.keras.callbacks import TensorBoard
+```
+
+### Step 7 - Building CNN
+In this section, I use ResNet50 model with some customization such as
+- First hidden layer, I use 512 perceptrons, relu activation and kernel_regularizer using `l2`. I also use dropout function around 30% during the training
+- Second hidden layer, I use 256 perceptrons, relu activation and kernel_regularizer using `l2`. I also use dropout function around 20% during the training
+- The optimizer that I used is SGD
+
+### Step 9 - Predictions
+In this section, you will predict the test_data and copy the result into DPHI Deep Learning Bootcamp to check the accuracy
+
+### Resources
+- **Python Version:** 3.7.6
+- **Tensorflow Version:** 2.3.0
+- **Dataset:** [DPHI Bootcamp](https://drive.google.com/file/d/176E-pLhoxTgWsJ3MeoJQV_GXczIA6g8D/view)
