@@ -20,7 +20,7 @@ This comand is used to install tensorflow
 - [Step 6 - Tensorboard](#step-6---tensorbard)
 - [Step 7 - Building CNN](#step-7---building-cnn)
 - [Step 8 - Optimization Techniques](#step-8---optimization-tecnique)
-- [Step 9 - Predict](#step-9---predictions)
+- [Step 9 - Prediction](#step-9---predictions)
 
 ### Step 1 - Loading Data
 In this section, you will unzip the data from google drive and load the data into your notebook
@@ -66,7 +66,7 @@ In this section, I use ResNet50 model with some customization such as
 ### Step 8 - Optimization Technique
 In this section, I use SGD optimizer to optimize the model 
 
-### Step 9 - Predictions
+### Step 9 - Prediction
 In this section, you will predict the test_data and copy the result into DPHI Deep Learning Bootcamp to check the accuracy
 
 ### Resources
