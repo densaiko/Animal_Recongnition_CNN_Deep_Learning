@@ -24,4 +24,6 @@ This comand is used to install tensorflow
 
 ### Step 1 - Loading Data
 In this section, you will unzip the data from google drive and load the data into your notebook
-`from google_drive_downloader import GoogleDriveDownloader as gdd'
+```
+from google_drive_downloader import GoogleDriveDownloader as gdd
+```
